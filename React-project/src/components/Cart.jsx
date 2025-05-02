@@ -1,16 +1,6 @@
-function Cart({ cartItems, setCartItems }) {
-  const updateQuantity = (id, newQuantity) => {
-    setCartItems((prevItems) =>
-      prevItems.map((item) =>
-        item.id === id ? { ...item, quantity: Math.max(newQuantity, 0) } : item
-      )
-    );
-  };
+import React from "react";
 
-  const removeItem = (id) => {
-    setCartItems((prevItems) => prevItems.filter((item) => item.id !== id));
-  };
-
+function Cart({ cartItems, updateQuantity, removeItem }) {
   const totalPrice = cartItems.reduce(
     (total, item) => total + item.precio * item.quantity,
     0
