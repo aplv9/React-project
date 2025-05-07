@@ -1,0 +1,52 @@
+/* Estilos generales del navbar */
+.navbar {
+    display: flex; /* Hace que los elementos hijos se alineen horizontalmente */
+    justify-content: space-between; /* Espacia los elementos: uno a la izquierda y otro a la derecha */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 10px 20px; /* Espaciado interno */
+    color: white; /* Color del texto */
+    border-radius: 8px; /* Bordes redondeados */
+  }
+  
+  /* Estilos para la lista de navegación */
+  .nav-links {
+    list-style: none; /* Elimina los puntos de la lista */
+    display: flex; /* Alinea los elementos de la lista horizontalmente */
+    gap: 15px; /* Espaciado entre los elementos de la lista */
+    margin: 0; /* Elimina el margen */
+    padding: 0; /* Elimina el padding */
+  }
+  
+  .nav-links li {
+    display: inline; /* Asegura que los elementos sean inline */
+  }
+  
+  .nav-links a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #554779; /* Color del texto */
+    font-size: 1rem; /* Tamaño de fuente */
+    transition: color 0.3s; /* Efecto de transición al pasar el mouse */
+  }
+  
+  .nav-links a:hover {
+    color: #00bcd4; /* Cambia el color al pasar el mouse */
+  }
+  
+  /* Estilos para el botón del carrito */
+  .cart-button {
+    background: none; /* Sin fondo */
+    border: none; /* Sin borde */
+    color: white; /* Color del ícono */
+    font-size: 1.5rem; /* Tamaño del ícono */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: color 0.3s; /* Efecto de transición al pasar el mouse */
+  }
+  
+  .cart-button:hover {
+    color: #00bcd4; /* Cambia el color al pasar el mouse */
+  }
+
+  .cart-icon {
+    width: 24px; /* Ajusta el tamaño del ícono */
+    height: 24px;
+  }

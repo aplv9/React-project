@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import CartModal from "./CartModal";
 import "../styles/nav.css";
+import shopping from"../assets/shopping.png"
 
 function Navbar() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -41,6 +42,7 @@ function Navbar() {
         </li>
       </ul>
       <button className="cart-button" onClick={openModal}>
+      <img src={shopping} alt="Carrito" className="cart-icon" />
         <i className="fa-solid fa-cart-shopping"></i>
       </button>
       {/* Renderizar el modal */}
