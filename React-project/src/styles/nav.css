@@ -6,8 +6,8 @@
     padding: 10px 20px; /* Espaciado interno */
     color: white; /* Color del texto */
     border-radius: 8px; /* Bordes redondeados */
+    margin: 20px;
   }
-  
   /* Estilos para la lista de navegación */
   .nav-links {
     list-style: none; /* Elimina los puntos de la lista */

@@ -1,0 +1,8 @@
+.carousel-image {
+    width: 100%; /* Ajusta el ancho de la imagen al 80% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    display: block; /* Asegura que la imagen sea un bloque centrado */
+    border-radius: 8px; /* Opcional: agrega bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Opcional: agrega una sombra */
+  }
